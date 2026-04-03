@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>clicker</title>
+<style>
+body{background:black;margin:0;height:100vh;display:flex;justify-content:center;align-items:center;font-family:Arial}
+#c{color:white;font-size:48px;text-align:center}
+#b{width:200px;height:200px;background:red;border:0;border-radius:50%;color:white;font-size:24px}
+</style>
+</head>
+<body>
+<div style="text-align:center">
+<div id="c">0</div>
+<button id="b" onclick="k()">КЛИК</button>
+</div>
+<script>
+let i=0;function k(){i++;document.getElementById('c').innerHTML=i;}
+</script>
+</body>
+</html>
